@@ -1,0 +1,67 @@
+@media(max-width:800px) {
+    .p{
+        display: none;
+    }
+}
+.solution{
+    padding-top: 100px;
+}
+.section{
+    padding: 150px 0;
+    background-image: url(http://www.newstap.co.kr/news/photo/202209/173187_280697_523.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto 100%;
+    background-color: #004038 !important;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.wrap{
+    color: white;
+    padding-left: 3rem;
+    margin-left: 10rem;
+}
+.span{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    margin-bottom: 15px;
+    display: block;
+}
+.h3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+}
+.p{
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    opacity: 0.8;
+    margin-top: 25px;
+}
+.more{
+    color: white;
+    text-decoration: none;
+}
+.quickview{
+    position: relative;
+    display: table;
+}
+.quickview::before{
+    background-color: #ffffff50;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    content: "";
+    z-index: 0;
+}

@@ -1,0 +1,19 @@
+.ad{
+    background-color: #004038;
+}
+.adment{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 0;
+}
+.figma{
+    width: 50px;
+}
+.nav{
+    display: flex;
+    width: 1800px;
+    align-items: center;
+    justify-content: space-between;
+}

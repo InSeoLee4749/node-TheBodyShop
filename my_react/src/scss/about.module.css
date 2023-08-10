@@ -1,0 +1,43 @@
+
+.section{
+    align-items: center;
+}
+.content{
+    padding-top: 100px;
+    width: 1224px;
+    margin: 0 auto;
+}
+.subtitle{
+    margin-bottom: 32px;
+    font-size: 20px;
+}
+.img1{
+    width: 392px;
+    height: 560px;
+    overflow: hidden;
+}
+.title{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.explain{
+    margin-top: 8px;
+    line-height: 24px;
+    letter-spacing: -0.5008px;
+}
+.img2{
+    width: 288px;
+    height: 320px;
+}
+.img3{
+    width: 392px;
+    height: 436px;
+}
+.img4{
+    width: 392px;
+    height: 560px;
+}
+.slide2{
+    margin-right: -30px !important;
+}
