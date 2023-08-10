@@ -3,7 +3,7 @@ import hd from "../scss/hd.module.css";
 import { Navbar, Nav } from 'react-bootstrap';
 import Scrollspy from 'react-scrollspy';
 
-import data from "../data/pick_swiper.json"
+import data from "../data/data.json"
 
 
 

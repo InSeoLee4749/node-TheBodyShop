@@ -2,7 +2,7 @@ import React from "react";
 import pick from "../scss/pick.module.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from "swiper";
-import data from "../data/pick_swiper.json"
+import data from "../data/data.json"
 
 export default function Review(props) {
     return (
