@@ -3,6 +3,8 @@ import hd from "../scss/hd.module.css";
 import { Navbar, Nav } from 'react-bootstrap';
 import Scrollspy from 'react-scrollspy';
 
+import data from "../data/pick_swiper.json"
+
 
 
 export default function Hd(props) {
@@ -36,7 +38,7 @@ export default function Hd(props) {
         <Nav className={`${hd.nav}`}>
             <Scrollspy  currentClassName="active">
                 {
-                props.dbsrc.gnb.map( (v, x) =>{
+                data.gnb.map( (v, x) =>{
                     return  <li key={x}><Nav.Link href={"#"+v.href}>{v.title}</Nav.Link></li>
                 })  
                 }

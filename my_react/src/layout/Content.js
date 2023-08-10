@@ -7,7 +7,6 @@ import Solution from "../component/Solution"
 
 
 export default function Content(props) {
-    console.log(props.dbsrc.gnb)
     return (
         <>
             <Banner></Banner>
