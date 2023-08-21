@@ -5,8 +5,6 @@ import Scrollspy from 'react-scrollspy';
 
 import data from "../data/data.json"
 
-
-
 export default function Hd(props) {
 
     const [scrollPosition, setScrollPosition] = useState(0);

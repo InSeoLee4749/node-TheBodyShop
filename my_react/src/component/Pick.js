@@ -34,7 +34,7 @@ export default function Review(props) {
                                             <p className={`${pick.krname}`}>{v.kor}</p>
                                         </div>
                                         <div className={`${pick.info_box} row`}>
-                                            <span>{v.price}</span>
+                                            <span className={`${pick.span}`}>{v.price}</span>
                                         </div>
                                         <div className={`${pick.imgdiv}`}>
                                             <a href=""><img className={`${pick.img}`} src={v.imgsrc} alt="" /></a>

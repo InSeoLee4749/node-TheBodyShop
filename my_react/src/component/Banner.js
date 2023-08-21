@@ -21,16 +21,15 @@ export default function Banner(props) {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide className={`banner1`}>
+                    <SwiperSlide>
                         <a href=""><img className={`${banner.img1}`} src="./img/banner1.png" alt=""/></a>
                     </SwiperSlide>
-                    <SwiperSlide className={`banner2`}>
-                    <a href=""><img className={`${banner.img1}`} src="./img/banner1.png" alt=""/></a>
+                    <SwiperSlide>
+                        <a href=""><img className={`${banner.img1}`} src="./img/banner2.png" alt=""/></a>
                     </SwiperSlide>
-                    <SwiperSlide className={`banner3`}></SwiperSlide>
-                    <SwiperSlide className={`banner4`}></SwiperSlide>
-                    <SwiperSlide className={`banner2`}></SwiperSlide>
-                    
+                    <SwiperSlide>
+                        <a href=""><img className={`${banner.img1}`} src="./img/banner3.png" alt=""/></a>
+                    </SwiperSlide>
                 </Swiper>
             </div>
         </section>

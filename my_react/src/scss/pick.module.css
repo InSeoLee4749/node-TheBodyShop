@@ -62,3 +62,42 @@
     width: auto;
     height: 350px;
 }
+
+@media(max-width:800px) {
+    .pplen{
+        padding: 13px 30px;
+        color: #03534D;
+        border-radius: 60px;
+        font-size: 11px;
+        text-align: center;
+        letter-spacing: 0;
+        border: 1px solid #03534D;
+    }
+    
+}
+@media(max-width:800px) {
+    .emname{
+        font-size: 15px;
+        line-height: 1;
+        color: black;
+        font-weight: 500;
+    }
+}
+@media(max-width:800px) {
+    .krname{
+        font-size: 13px;
+        line-height: 1;
+        color: black;
+        font-weight: 500;
+        padding-top: 10px;
+    }
+}
+@media(max-width:800px) {
+    .span{
+        font-size: 13px;
+        line-height: 1;
+        color: black;
+        font-weight: 500;
+        padding-top: 5px;
+    }
+}
